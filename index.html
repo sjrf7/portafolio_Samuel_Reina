@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-code me-2"></i>MiPortafolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header con Imagen -->
+    <header id="inicio" class="header-imagen">
+        <div class="header-content">
+            <div class="container text-center">
+                <h1 class="animate__animated animate__fadeInDown">Samuel Reina</h1>
+                <p class="lead animate__animated animate__fadeInUp">Estudiante de informática</p>
+                <p class="animate__animated animate__fadeInUp">Apasionado por el desarrollo web y en constante aprendizaje.</p>
+                <a href="#proyectos" class="btn btn-primary btn-lg animate__animated animate__fadeInUp mt-3">
+                    Ver mis proyectos <i class="fas fa-arrow-down ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Sobre <span class="text-primary">Mí</span></h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="img/foto-perfil.jpg.jpg" alt="Mi foto" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h3>¡Hola! Soy <span class="text-primary">Samuel Reina</span></h3>
+                    <p class="text-justify">Soy un joven de 19 años con mente lógica y visión creativa. Estudio informática y me apasiona el desarrollo web, donde encuentro el equilibrio perfecto entre el código y el diseño. Me impulsa la curiosidad, el aprendizaje continuo y el deseo de construir experiencias digitales que realmente conecten con las personas.</p>
+                    
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li><strong><i class="fas fa-calendar-alt me-2 text-primary"></i>Edad:</strong> 19</li>
+                                <li><strong><i class="fas fa-map-marker-alt me-2 text-primary"></i>Ubicación:</strong> Ciudad Bolívar, Venezuela</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li><strong><i class="fas fa-envelope me-2 text-primary"></i>Email:</strong> samueljfarrera@gmail.com</li>
+                                <li><strong><i class="fas fa-graduation-cap me-2 text-primary"></i>Estudios:</strong> UPT Bolívar</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="#" class="btn btn-outline-primary me-2">
+                            <i class="fas fa-download me-1"></i> Descargar CV
+                        </a>
+                        <a href="#contacto" class="btn btn-primary">
+                            <i class="fas fa-envelope me-1"></i> Contáctame
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Mis <span class="text-primary">Habilidades</span></h2>
+            <div class="row">
+                <!-- HTML -->
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <div class="skill-icon mb-3">
+                            <i class="fab fa-html5 fa-4x" style="color: #e34f26;"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" role="progressbar" style="width: 50%; background-color: #e34f26;" 
+                                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p class="mb-0">Maquetación web semántica</p>
+                    </div>
+                </div>
+                
+                <!-- CSS -->
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <div class="skill-icon mb-3">
+                            <i class="fab fa-css3-alt fa-4x" style="color: #264de4;"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #264de4;" 
+                                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p class="mb-0">Diseño responsive</p>
+                    </div>
+                </div>
+                
+                <!-- JavaScript -->
+                <div class="col-md-4 mb-4">
+                    <div class="skill-card text-center p-4">
+                        <div class="skill-icon mb-3">
+                            <i class="fab fa-js-square fa-4x" style="color: #f7df1e;"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="progress mb-3">
+                            <div class="progress-bar" role="progressbar" style="width: 40%; background-color: #f7df1e; color: #000;" 
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <p class="mb-0">Interactividad web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Mis <span class="text-primary">Proyectos</span></h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="img/landing_page.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Landing Page</h5>
+                            <p class="card-text">Diseño moderno para empresa de tecnología.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">HTML</span>
+                                <span class="badge bg-secondary">CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="img/e-commerce.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Tienda Online</h5>
+                            <p class="card-text">E-commerce con carrito de compras.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">JavaScript</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card project-card h-100">
+                        <img src="img/app_clima.jpg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">App del Clima</h5>
+                            <p class="card-text">Aplicación web de pronóstico del tiempo.</p>
+                            <div class="tech-tags">
+                                <span class="badge bg-primary">API</span>
+                                <span class="badge bg-secondary">Fetch</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Contáct<span class="text-primary">ame</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form class="contact-form" action="https://formspree.io/f/xyzejrzb" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <input type="email" name="_replyto" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" name="asunto" class="form-control" placeholder="Asunto">
+                        </div>
+                        <div class="mb-3">
+                            <textarea name="mensaje" class="form-control" rows="5" placeholder="Mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-paper-plane me-2"></i> Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="social-links mb-3">
+                <a href="https://www.linkedin.com/in/samuel-reina-0915521ab/" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/sjrf7" class="text-white mx-2"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/SamuelSjrf7" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="mb-0">&copy; 2025 Mi Portafolio Samuel Reina. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Tu JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
